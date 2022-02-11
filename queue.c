@@ -1,9 +1,9 @@
 #include<stdio.h>
-int queue[2],rear=0,front=0;
+int queue[10],rear=0,front=0;
 void enqueue()
 {
     int data;
-    if(rear==2)
+    if(rear==10)
     {
         printf("queue is full\n");
     }
